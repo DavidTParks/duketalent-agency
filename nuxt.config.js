@@ -12,7 +12,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Duke Talent is a boutique search and consulting agency specializing in design, architecture and creative-minded brands. "
+          "Duke Talent is a boutique search and consulting agency specializing in design, architecture and creative-minded brands."
       },
       {
         hid: "keywords",
@@ -23,6 +23,21 @@ export default {
       {
         name: "og:title",
         content: `Duke Talent | Boutique Search and Consulting Agency`
+      },
+      {
+        name: "og:description",
+        content:
+          "Duke Talent is a boutique search and consulting agency specializing in design, architecture and creative-minded brands."
+      },
+      { name: "og:url", content: `https://duketalent.agency/` },
+      { name: "og:type", content: "website" },
+      {
+        name: "og:image",
+        content: `https://davidparksdev.s3.us-east-2.amazonaws.com/Screen+Shot+2020-05-29+at+11.51.12+AM.png`
+      },
+      {
+        name: "og:image:secure_url",
+        content: `https://davidparksdev.s3.us-east-2.amazonaws.com/Screen+Shot+2020-05-29+at+11.51.12+AM.png`
       }
     ],
     link: [
