@@ -4,14 +4,25 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Duke Talent | Boutique Search and Consulting Agency",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content:
+          "Duke Talent is a boutique search and consulting agency specializing in design, architecture and creative-minded brands. "
+      },
+      {
+        hid: "keywords",
+        name: "keywords",
+        content:
+          "duke talent, agency, creative agency, boutique agency, duke butler"
+      },
+      {
+        name: "og:title",
+        content: `Duke Talent | Boutique Search and Consulting Agency`
       }
     ],
     link: [
@@ -46,6 +57,11 @@ export default {
    ** Nuxt.js modules
    */
   modules: ["@nuxtjs/sitemap"],
+
+  sitemap: {
+    hostname: "https://duketalent.agency/",
+    gzip: true
+  },
   /*
    ** Build configuration
    */
