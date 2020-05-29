@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/prismic": "^1.2.1",
     "@nuxtjs/sitemap": "^2.3.0",
     "nuxt": "^2.0.0"
   },
