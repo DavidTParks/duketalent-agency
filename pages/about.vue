@@ -2,7 +2,7 @@
   <div class="flex items-center justify-center min-h-screen flex-col">
     <p
       class="max-w-sm uppercase text-xs"
-    >Duke Talent is a boutique search and consulting agency specializing in high-end design, architecture, hospitality and real estate development.</p>
+    >Duke Talent is a boutique search and consulting agency specializing in high-end design, architecture and hospitality.</p>
     <p class="font-bold uppercase text-left max-w-sm w-full text-xs mt-12">Contact</p>
     <p class="max-w-sm uppercase text-xs">24 Park Ave</p>
     <p class="max-w-sm uppercase text-xs">Venice, CA 90291</p>
