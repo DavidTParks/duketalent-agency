@@ -2,7 +2,6 @@
   <div class="flex items-center justify-center min-h-screen flex-col">
     <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-md">
-    <img class="mx-auto h-12 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="Workflow" />
     <h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900">
       Client Login
     </h2>
@@ -38,7 +37,7 @@
           </div>
 
           <div class="text-sm leading-5">
-            <a href="#" class="ml-8 font-medium text-gray-600 hover:text-gray-500 focus:outline-none focus:underline transition ease-in-out duration-150">
+            <a href="#" class="hidden md:flex ml-8 font-medium text-gray-600 hover:text-gray-500 focus:outline-none focus:underline transition ease-in-out duration-150">
               Forgot your password?
             </a>
           </div>
