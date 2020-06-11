@@ -71,16 +71,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["@nuxtjs/sitemap", "@nuxtjs/prismic"],
+  modules: ["@nuxtjs/sitemap"],
 
   sitemap: {
     hostname: "https://duketalent.agency/",
     gzip: true
-  },
-  prismic: {
-    endpoint: "https://dbta.cdn.prismic.io/api/v2",
-    linkResolver: "@/plugins/link-resolver",
-    htmlSerializer: "@/plugins/html-serializer"
   },
   /*
    ** Build configuration
@@ -90,7 +85,7 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      config.resolve.alias["vue"] = "vue/dist/vue.common";
+      
     }
   }
 };
