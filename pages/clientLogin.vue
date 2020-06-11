@@ -9,7 +9,7 @@
 
   <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
     <div class="bg-white py-8 px-4 sm:px-10 border border border-gray-600">
-      <form action="#" method="POST">
+      <form action="/" method="POST">
         <div>
           <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
             Username
