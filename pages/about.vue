@@ -5,7 +5,7 @@
     <p class="max-w-sm uppercase text-xs">24 Park Ave</p>
     <p class="max-w-sm uppercase text-xs">Venice, CA 90291</p>
     <p>e. duke@duketalent.agency</p>
-    <p>p. 414 520 0318</p>
+    <p>p. 310 861 3300</p>
   </div>
 </template>
 
