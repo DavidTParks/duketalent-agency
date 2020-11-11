@@ -42,11 +42,6 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-      }
     ]
   },
   /*
@@ -66,8 +61,14 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    '@nuxtjs/google-fonts',
   ],
+  googleFonts: {
+    /* module options */
+    Inter: [300, 400, 600, 700],
+    display: 'swap'
+  },
   /*
    ** Nuxt.js modules
    */
