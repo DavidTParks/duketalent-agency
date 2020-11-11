@@ -5,6 +5,9 @@ export default {
    */
   head: {
     title: "Duke Talent | Boutique Search and Consulting Agency",
+    htmlAttrs: {
+      lang: "en-US",
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
