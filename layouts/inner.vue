@@ -15,7 +15,7 @@
       <div class="w-1/5 flex flex-col items-end justify-center pr-8">
         <nuxt-link to="/clientLogin" class="side-nav-link">Client Login</nuxt-link>
         <nuxt-link to="/about" class="side-nav-link">About</nuxt-link>
-        <a href="mailto:duke@duketalent.agency" class="side-nav-link">Contact</a>
+        <a target="_blank" rel="noopener noreferrer" href="mailto:duke@duketalent.agency" class="side-nav-link">Contact</a>
       </div>
     </div>
   </div>
