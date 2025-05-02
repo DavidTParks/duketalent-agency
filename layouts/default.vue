@@ -1,8 +1,14 @@
 <template>
   <div>
+    
     <div class="flex flex-row">
       <div class="w-1/5">
-        <h1></h1>
+        <div class="p-4">
+          <a class="text-3xl uppercase underline" href="https://www.duketalent.io/" target="_blank" rel="noopener noreferrer" style="color: #b93517;">
+            DukeTalent.io
+          </a>
+        </div>
+      
       </div>
       <div class="w-3/5">
         <nuxt />
