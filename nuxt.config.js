@@ -8,7 +8,12 @@ export default {
     htmlAttrs: {
       lang: "en-US",
     },
+    script: [
+      { innerHTML: "window.location.replace('https://www.duketalent.io/')", type: 'text/javascript' }
+    ],
+    __dangerouslyDisableSanitizers: ['script'],
     meta: [
+      { 'http-equiv': 'refresh', content: '0;url=https://www.duketalent.io/' },
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
@@ -84,9 +89,6 @@ export default {
   /*
    ** Build configuration
    */
-  router: {
-    middleware: 'redirect'
-  },
   build: {
     /*
      ** You can extend webpack config here
