@@ -84,6 +84,9 @@ export default {
   /*
    ** Build configuration
    */
+  router: {
+    middleware: 'redirect'
+  },
   build: {
     /*
      ** You can extend webpack config here
